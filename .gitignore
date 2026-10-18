@@ -1,0 +1,43 @@
+# Directoare de compilare (build)
+build/
+bin/
+lib/
+out/
+cmake-build-*/
+**/build/
+**/bin/
+**/lib/
+**/out/
+**/cmake-build-*/
+
+# Fișiere generate de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+
+# Fișiere obiect și biblioteci compilate
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executabile
+*.exe
+*.out
+
+# IDE-uri și editoare
+.vscode/
+.idea/
+*.swp
+
+# Fișiere sistem de operare
+.DS_Store
+Thumbs.db
